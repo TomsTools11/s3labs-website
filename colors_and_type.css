@@ -16,24 +16,26 @@
   src: url("fonts/Lato-Black.ttf") format("truetype"); font-display: swap; }
 
 :root {
-  /* Surfaces — blue-tinted neutrals keyed to the brand */
-  --surface-0: #ffffff;
-  --surface-1: #f6faff;
-  --surface-2: #eef4fb;
-  --surface-border: #dfe9f1;
-  --surface-border-strong: #bedef9;
+  color-scheme: dark;
+
+  /* Surfaces — dark by default */
+  --surface-0: #0a0a0a;
+  --surface-1: #111113;
+  --surface-2: #18181b;
+  --surface-border: #232327;
+  --surface-border-strong: #2e2e33;
 
   /* Text */
-  --text-primary:   #09090b;
-  --text-secondary: #52525b;
-  --text-tertiary:  #a1a1aa;
+  --text-primary:   #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-tertiary:  #52525b;
 
   /* Brand */
-  --brand:       #2e9df1;
-  --brand-hover: #3e80b6;
-  --brand-soft:  #c5dff6;
-  --brand-ring:  rgba(46, 157, 241, 0.22);
-  --brand-deep:  #2a5364;
+  --brand:       #42adfa;
+  --brand-hover: #6cc1fb;
+  --brand-soft:  rgba(66, 173, 250, 0.14);
+  --brand-ring:  rgba(66, 173, 250, 0.32);
+  --brand-deep:  #cfe6fa;
 
   /* Mark accents (glyph only) */
   --mark-red:   #D85858;
@@ -92,16 +94,6 @@
   --track-tight:  -0.015em;
   --track-snug:   -0.005em;
   --track-normal: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --surface-0: #0a0a0a; --surface-1: #111113; --surface-2: #18181b;
-    --surface-border: #232327; --surface-border-strong: #2e2e33;
-    --text-primary: #fafafa; --text-secondary: #a1a1aa; --text-tertiary: #52525b;
-    --brand: #6FC5DA; --brand-hover: #8BD1E3;
-    --brand-soft: rgba(111,197,218,.12); --brand-ring: rgba(111,197,218,.28);
-  }
 }
 
 /* Semantic roles */

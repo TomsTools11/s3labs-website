@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light" />
+<meta name="color-scheme" content="dark" />
 <title>S3 Labs — Small software for people who want less software</title>
 <meta name="description" content="S3 Labs is a software studio shipping single-purpose apps. No subscriptions, no upsells. DropDoc is live now." />
 <link rel="icon" href="assets/drop-icon.svg" type="image/svg+xml" />
@@ -14,7 +14,7 @@
 <style>
   *,*::before,*::after{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
-  html{scroll-behavior:smooth;color-scheme:light;}
+  html{scroll-behavior:smooth;color-scheme:dark;}
   body{
     font-family:var(--font-sans);
     color:var(--text-primary);
@@ -32,19 +32,15 @@
   /* ---------- Header ---------- */
   .site-header{
     position:sticky;top:0;z-index:20;
-    height:56px;
-    background:rgba(255,255,255,.8);
+    height:66px;
+    background:rgba(10,10,10,.78);
     -webkit-backdrop-filter:blur(20px);
     backdrop-filter:blur(20px);
     border-bottom:1px solid var(--surface-border);
   }
   .site-header .inner{display:flex;align-items:center;justify-content:space-between;height:100%;}
   .brand-lockup{display:inline-flex;align-items:center;gap:10px;}
-  .brand-wordmark{
-    font-weight:var(--fw-black);
-    font-size:15px;
-    letter-spacing:-0.015em;
-  }
+  .brand-logo{display:block;width:62px;height:64px;object-fit:contain;}
   .header-meta{
     display:flex;align-items:center;gap:14px;
     font-family:var(--font-mono);
@@ -56,10 +52,10 @@
   .status-pill{
     display:inline-flex;align-items:center;gap:6px;
     font-family:var(--font-sans);
-    font-size:var(--fs-xs);
-    font-weight:var(--fw-bold);
+    font-size:13px;
+    font-weight:var(--fw-regular);
     color:var(--text-secondary);
-    letter-spacing:0;
+    line-height:1;
   }
   .status-dot{
     width:7px;height:7px;border-radius:50%;
@@ -67,6 +63,7 @@
     box-shadow:0 0 0 4px var(--brand-ring);
     animation:status-breath 2.4s var(--ease-out) infinite;
   }
+  .header-version{color:var(--brand);}
   @keyframes status-breath{
     0%,100%{opacity:.85;}
     50%{opacity:1;box-shadow:0 0 0 6px var(--brand-ring);}
@@ -101,7 +98,7 @@
     margin-bottom:28px;
     font-family:var(--font-mono);
     font-size:var(--fs-xs);
-    color:var(--text-secondary);
+    color:var(--text-tertiary);
     font-variant-numeric:tabular-nums;
   }
   .pill{
@@ -118,9 +115,11 @@
     text-transform:uppercase;
   }
   .pill.brand{
-    background:var(--brand-soft);
+    background:var(--brand);
     border-color:transparent;
-    color:var(--brand-deep);
+    color:#11151a;
+    font-family:var(--font-mono);
+    font-weight:500;
   }
   .dot{color:var(--surface-border-strong);}
 
@@ -131,11 +130,11 @@
     font-size:clamp(40px,6.6vw,76px);
     line-height:1.04;
     letter-spacing:-0.025em;
-    color:var(--brand);
+    color:var(--text-primary);
     max-width:14ch;
     text-wrap:pretty;
   }
-  .hero h1 .muted{color:var(--text-tertiary);display:block;}
+  .hero h1 .muted{color:var(--brand);display:block;}
   .hero-lead{
     margin:0 0 36px;
     font-size:18px;
@@ -144,6 +143,7 @@
     max-width:56ch;
     font-weight:var(--fw-regular);
   }
+  .hero-lead .brand-bold{color:var(--brand);font-weight:var(--fw-black);}
   .hero-ctas{display:flex;flex-wrap:wrap;gap:10px;align-items:center;}
 
   /* ---------- Buttons ---------- */
@@ -164,22 +164,22 @@
     border-color:var(--brand);
   }
   .btn-primary{
-    background:var(--brand);color:var(--brand-deep);
+    background:var(--brand);color:#0f1216;
     border:1px solid var(--brand);
   }
-  .btn-primary:hover{background:var(--brand-hover);border-color:var(--brand-hover);}
+  .btn-primary:hover{background:var(--brand-hover);border-color:var(--brand-hover);color:#0f1216;}
   .btn-ghost{
     background:transparent;
     color:var(--text-primary);
-    border:1px solid var(--surface-border);
+    border:1px solid var(--brand);
   }
-  .btn-ghost:hover{background:var(--surface-1);border-color:var(--surface-border-strong);}
+  .btn-ghost:hover{background:var(--surface-1);border-color:var(--brand-hover);}
   .arrow{transition:transform var(--dur-base) var(--ease-out);}
   .btn:hover .arrow{transform:translateX(2px);}
 
   /* ---------- Featured DropDoc card ---------- */
   .featured{
-    padding:8px 0 96px;
+    padding:40px 0 72px;
   }
   .featured-card{
     position:relative;
@@ -211,6 +211,7 @@
     font-weight:var(--fw-black);
     letter-spacing:-0.02em;
     line-height:1.1;
+    color:var(--text-primary);
   }
   .featured-card .lede{
     margin:0 0 24px;
@@ -231,15 +232,21 @@
   .step-num{
     font-family:var(--font-mono);
     font-size:var(--fs-xs);
-    color:var(--brand);
+    color:var(--text-primary);
     font-weight:var(--fw-bold);
     letter-spacing:.04em;
     white-space:nowrap;
   }
   .step-text{font-size:14px;color:var(--text-primary);}
-  .step-text b{font-weight:var(--fw-bold);}
+  .step-text b{font-weight:var(--fw-bold);color:var(--brand);}
   .step-text span{color:var(--text-secondary);}
   .featured-cta{margin-top:auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+  .featured-meta{
+    font-family:var(--font-mono);font-size:var(--fs-xs);
+    color:var(--text-tertiary);font-variant-numeric:tabular-nums;
+    display:inline-flex;align-items:center;gap:8px;
+  }
+  .featured-meta .sep{color:var(--brand);font-weight:var(--fw-black);font-size:14px;}
 
   /* Right side mini-mock */
   .featured-card .right{
@@ -270,26 +277,26 @@
     display:flex;align-items:center;gap:6px;
     margin-bottom:14px;
   }
-  .mock-bar .tl{width:9px;height:9px;border-radius:50%;background:var(--surface-border-strong);}
+  .mock-bar .tl{width:9px;height:9px;border-radius:50%;background:var(--brand);}
   .mock-url{
     margin-left:6px;
     flex:1;
     font-family:var(--font-mono);
     font-size:11px;
     color:var(--text-tertiary);
-    background:var(--surface-1);
-    border:1px solid var(--surface-border);
-    border-radius:var(--radius-sm);
+    background:#161619;
+    border:1px dashed #5d5d5d;
+    border-radius:10px;
     padding:4px 8px;
     overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
   }
-  .mock-url b{color:var(--brand);font-weight:var(--fw-bold);}
+  .mock-url b{color:var(--brand);font-weight:300;}
   .mock-drop{
-    border:1.5px dashed var(--surface-border-strong);
+    border:1.5px dashed #5d5d5d;
     border-radius:var(--radius-lg);
-    padding:24px 16px;
+    padding:20px;
     text-align:center;
-    background:var(--surface-1);
+    background:#17171a;
     position:relative;
     transition:border-color var(--dur-base) var(--ease-out),background-color var(--dur-base) var(--ease-out);
   }
@@ -314,9 +321,9 @@
   .mock-result{
     display:flex;align-items:center;gap:8px;
     margin-top:12px;padding:10px 12px;
-    border:1px solid var(--surface-border);
-    border-radius:var(--radius-md);
-    background:var(--surface-0);
+    border:1px dashed #4e4e4e;
+    border-radius:14px;
+    background:#17171a;
     font-family:var(--font-mono);
     font-size:11px;
     color:var(--text-secondary);
@@ -336,7 +343,7 @@
   }
 
   /* ---------- Roadmap ---------- */
-  .roadmap{padding:0 0 96px;}
+  .roadmap{padding:60px 0;}
   .section-head{
     display:flex;align-items:baseline;justify-content:space-between;
     gap:24px;margin-bottom:20px;
@@ -344,41 +351,52 @@
   .section-eyebrow{
     font-family:var(--font-sans);
     font-size:11px;font-weight:var(--fw-bold);
-    color:var(--text-secondary);
+    color:var(--brand);
     letter-spacing:.12em;
     text-transform:uppercase;
+    padding-bottom:4px;
   }
   .section-title{
-    margin:6px 0 0;
+    margin:4px 0 0;
     font-size:28px;font-weight:var(--fw-black);
     letter-spacing:-0.02em;line-height:1.15;
+    color:var(--text-primary);
   }
   .section-title .muted{color:var(--text-tertiary);}
   .section-meta{
     font-family:var(--font-mono);
-    font-size:var(--fs-xs);
+    font-size:13px;
     color:var(--text-tertiary);
     font-variant-numeric:tabular-nums;
     white-space:nowrap;
   }
+  .section-meta .num{color:var(--brand);font-weight:var(--fw-bold);}
+  .section-meta .label{color:var(--text-tertiary);}
 
   .lab-list{
-    border:1px solid var(--surface-border);
+    border:1px dashed rgba(66,173,250,.8);
     border-radius:var(--radius-xl);
     overflow:hidden;
-    background:var(--surface-0);
+    background:transparent;
   }
   .lab-row{
     display:grid;
-    grid-template-columns:96px 1fr auto auto;
-    gap:20px;align-items:center;
+    grid-template-columns:auto 1fr auto auto;
+    gap:18px;align-items:center;
     padding:18px 22px;
-    border-bottom:1px solid var(--surface-border);
+    border-bottom:1px dashed rgba(66,173,250,.4);
     transition:background-color var(--dur-base) var(--ease-out);
+    cursor:pointer;
   }
   .lab-row:last-child{border-bottom:0;}
-  .lab-row.live{cursor:pointer;}
-  .lab-row.live:hover{background:var(--surface-1);}
+  .lab-row:hover{background:rgba(66,173,250,.06);}
+  .lab-icon{
+    width:50px;height:40px;
+    border-radius:8px;
+    display:block;
+    object-fit:contain;
+    background:transparent;
+  }
   .lab-status{
     font-family:var(--font-sans);
     font-size:10px;font-weight:var(--fw-bold);
@@ -405,10 +423,59 @@
   .lab-action{
     display:inline-flex;align-items:center;gap:6px;
     font-size:13px;font-weight:var(--fw-bold);
-    color:var(--text-tertiary);
+    color:var(--brand);
   }
-  .lab-action.live{color:var(--brand);}
-  .lab-row.live:hover .lab-action.live .arrow{transform:translateX(2px);}
+  .lab-row:hover .lab-action .arrow{transform:translateX(2px);}
+
+  /* ---------- Notify ---------- */
+  .notify{
+    padding:0 0 60px;
+  }
+  .notify-card{
+    border:1px solid var(--surface-border);
+    border-radius:var(--radius-xl);
+    background:var(--surface-1);
+    padding:28px 32px;
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:24px;align-items:center;
+  }
+  .notify-card h3{
+    margin:0 0 6px;font-size:18px;font-weight:var(--fw-bold);letter-spacing:-0.01em;
+    color:var(--text-primary);
+  }
+  .notify-card p{margin:0;color:var(--text-tertiary);font-size:14px;max-width:54ch;}
+  .notify-form{display:flex;gap:8px;align-items:center;}
+  .notify-form input{
+    height:42px;width:280px;
+    padding:0 14px;
+    font-family:var(--font-sans);font-size:14px;color:var(--text-primary);
+    background:var(--surface-0);
+    border:1px solid var(--brand);
+    border-radius:var(--radius-md);
+    transition:border-color var(--dur-base) var(--ease-out),box-shadow var(--dur-base) var(--ease-out);
+  }
+  .notify-form input::placeholder{color:var(--text-tertiary);}
+  .notify-form input:focus{
+    outline:none;border-color:var(--brand);
+    box-shadow:0 0 0 3px var(--brand-ring);
+  }
+  .notify-form input.error{border-color:var(--danger);}
+  .notify-success{
+    display:none;align-items:center;gap:10px;
+    padding:10px 14px;
+    background:var(--brand-soft);
+    border-radius:var(--radius-md);
+    color:var(--brand-deep);
+    font-size:14px;font-weight:var(--fw-bold);
+  }
+  .notify-success.show{display:inline-flex;}
+  .notify-form.hidden{display:none;}
+  .check-circle{
+    width:16px;height:16px;border-radius:50%;
+    background:var(--brand);color:#fff;
+    display:inline-flex;align-items:center;justify-content:center;
+  }
 
   /* ---------- Footer ---------- */
   .site-footer{
@@ -421,10 +488,12 @@
   }
   .footer-meta{
     font-family:var(--font-mono);font-size:var(--fs-xs);
-    color:var(--text-tertiary);font-variant-numeric:tabular-nums;
+    color:#8c8c8c;font-variant-numeric:tabular-nums;
     display:flex;align-items:center;gap:12px;flex-wrap:wrap;
   }
   .footer-meta .sep{color:var(--surface-border-strong);}
+  .footer-meta .s3-link{color:var(--brand);font-weight:600;transition:color var(--dur-base) var(--ease-out);}
+  .footer-meta .s3-link:hover{color:var(--brand-hover);}
   .footer-links{display:flex;gap:18px;font-size:13px;color:var(--text-secondary);}
   .footer-links a{transition:color var(--dur-base) var(--ease-out);}
   .footer-links a:hover{color:var(--brand);}
@@ -435,13 +504,11 @@
     .featured-card .left{border-right:0;border-bottom:1px solid var(--surface-border);padding:28px;}
     .featured-card .right{padding:28px;}
     .lab-row{grid-template-columns:auto 1fr;gap:8px 14px;}
+    .lab-icon{width:36px;height:32px;}
     .lab-host,.lab-action{display:none;}
+    .notify-card{grid-template-columns:1fr;}
+    .notify-form input{width:100%;}
     .hero{padding:64px 0 56px;}
-  }
-
-  /* dark-mode tweak: subdue header */
-  @media (prefers-color-scheme: dark){
-    .site-header{background:rgba(10,10,10,.78);}
   }
 </style>
 </head>
@@ -450,17 +517,12 @@
 <header class="site-header">
   <div class="container inner">
     <a class="brand-lockup" href="#top" aria-label="S3 Labs home">
-      <svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true">
-        <rect x="1" y="1" width="30" height="30" rx="7" fill="none" stroke="var(--text-primary)" stroke-width="1.5"></rect>
-        <text x="10" y="22" font-family="var(--font-sans)" font-weight="900" font-size="18" fill="var(--text-primary)" letter-spacing="-0.04em">s</text>
-        <text x="20" y="14" font-family="var(--font-mono)" font-weight="700" font-size="10" fill="var(--brand)">3</text>
-      </svg>
-      <span class="brand-wordmark">S3 Labs</span>
+      <img class="brand-logo" src="assets/s3-logo.png" alt="S3 Labs" width="62" height="64" />
     </a>
     <div class="header-meta">
       <span class="status-pill"><span class="status-dot" aria-hidden="true"></span>Site in progress</span>
       <span class="sep" aria-hidden="true">·</span>
-      <span>v0.0.1</span>
+      <span class="header-version">v0.0.1</span>
     </div>
   </div>
 </header>
@@ -472,16 +534,16 @@
     <div class="container">
       <div class="hero-eyebrow">
         <span class="pill brand">Coming soon</span>
-        <span>Studio site under construction</span>
+        <span>full website under construction</span>
         <span class="dot" aria-hidden="true">·</span>
-        <span>est. Q3 2026</span>
+        <span>est. 2026</span>
       </div>
       <h1>
-        Small software,
-        <span class="muted">on its way.</span>
+        Smart.<br/>Simple.<br/>
+        <span class="muted">Software.</span>
       </h1>
       <p class="hero-lead">
-        S3 Labs is a software studio shipping single-purpose apps that are free or one-time purchase. The studio site isn't ready yet — but our first tool is. <b style="color:var(--text-primary);font-weight:var(--fw-bold)">DropDoc</b> turns any HTML report into a stable shareable link in seconds.
+        S3 Labs is a software studio shipping single-purpose apps that are free or one-time purchase. Try out our first tool, <b class="brand-bold">DropDoc</b>, which turns any HTML report into a stable shareable link in seconds.
       </p>
       <div class="hero-ctas">
         <a class="btn btn-primary" href="https://dropdoc.sh" target="_blank" rel="noopener">
@@ -491,6 +553,7 @@
             <path d="M9 4.5 L12.5 8 L9 11.5" />
           </svg>
         </a>
+        <a class="btn btn-ghost" href="#notify">Have a good idea?</a>
       </div>
     </div>
   </section>
@@ -505,9 +568,9 @@
             <span class="dot" aria-hidden="true">·</span>
             <span>The first S3 Labs app</span>
           </div>
-          <h2>DropDoc. Ship a report.<br/>Share a link.</h2>
+          <h2>Drag &amp; drop a file.<br/>Generate a url.<br/>Share a link.</h2>
           <p class="lede">
-            Drop an HTML file, get a stable shareable URL. Your client sees the report exactly as designed — no account, no install, no PDF compression ruining the type.
+            Drop an HTML file, get a shareable URL. Your recipient sees the report exactly as designed — no account, no install, no PDF compression ruining the type.
           </p>
           <ul class="steps">
             <li class="step">
@@ -524,17 +587,11 @@
             </li>
           </ul>
           <div class="featured-cta">
-            <a class="btn btn-primary" href="https://dropdoc.sh" target="_blank" rel="noopener">
-              Open dropdoc.sh
-              <svg class="arrow" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M5 11 L11 5"/>
-                <path d="M6 5 H11 V10"/>
-              </svg>
-            </a>
-            <span class="header-meta" style="font-family:var(--font-mono);font-size:var(--fs-xs);color:var(--text-tertiary);">
-              <span>$Free forever</span>
+            <a class="btn btn-primary" href="https://dropdoc.sh" target="_blank" rel="noopener">Try DropDoc</a>
+            <span class="featured-meta">
+              <span>$use for free</span>
               <span class="sep">·</span>
-              <span>No account</span>
+              <span>No account needed</span>
             </span>
           </div>
         </div>
@@ -591,48 +648,78 @@
       <div class="section-head">
         <div>
           <div class="section-eyebrow">The lab</div>
-          <h2 class="section-title">One live. <span class="muted">More on the way.</span></h2>
+          <h2 class="section-title">Try one of our first tools below!</h2>
         </div>
-        <span class="section-meta">1 shipped · 2 in progress</span>
+        <span class="section-meta"><span class="num">3</span> <span class="label">tools shipped</span> <span class="label">·</span> <span class="num">2</span> <span class="label">in progress</span></span>
       </div>
 
       <div class="lab-list" role="list">
-        <a class="lab-row live" role="listitem" href="https://dropdoc.sh" target="_blank" rel="noopener">
-          <span class="lab-status live"><span class="pip"></span>Live · v0.1</span>
+        <a class="lab-row" role="listitem" href="https://dropdoc.sh" target="_blank" rel="noopener">
+          <img class="lab-icon" src="assets/dropdoc-icon.png" alt="" aria-hidden="true" />
           <span class="lab-name">
             <span class="n">DropDoc</span>
             <span class="d">Drop an HTML file, get a stable shareable URL.</span>
           </span>
           <span class="lab-host">dropdoc.sh</span>
-          <span class="lab-action live">
+          <span class="lab-action">
             Open
             <svg class="arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11 L11 5"/><path d="M6 5 H11 V10"/></svg>
           </span>
         </a>
 
-        <div class="lab-row" role="listitem">
-          <span class="lab-status soon"><span class="pip"></span>In progress</span>
+        <a class="lab-row" role="listitem" href="https://stylesnap.design/" target="_blank" rel="noopener">
+          <img class="lab-icon" src="assets/stylesnap-favicon.png" alt="" aria-hidden="true" />
           <span class="lab-name">
             <span class="n">StyleSnap</span>
             <span class="d">Paste a URL, get a clean PDF style guide.</span>
           </span>
-          <span class="lab-host">stylesnap.app</span>
-          <span class="lab-action">Soon</span>
-        </div>
+          <span class="lab-host">stylesnap.design</span>
+          <span class="lab-action">
+            Open
+            <svg class="arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11 L11 5"/><path d="M6 5 H11 V10"/></svg>
+          </span>
+        </a>
 
-        <div class="lab-row" role="listitem">
-          <span class="lab-status soon"><span class="pip"></span>In progress</span>
+        <a class="lab-row" role="listitem" href="https://personalab.im/" target="_blank" rel="noopener">
+          <img class="lab-icon" src="assets/persona-favicon.png" alt="" aria-hidden="true" />
           <span class="lab-name">
-            <span class="n">Tool 03</span>
+            <span class="n">Persona</span>
             <span class="d">Single-purpose. Free or one-time. We'll tell you when it's ready.</span>
           </span>
-          <span class="lab-host">—</span>
-          <span class="lab-action">Soon</span>
-        </div>
+          <span class="lab-host">personalab.im</span>
+          <span class="lab-action">
+            Open
+            <svg class="arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11 L11 5"/><path d="M6 5 H11 V10"/></svg>
+          </span>
+        </a>
       </div>
     </div>
   </section>
 
+  <!-- NOTIFY -->
+  <section class="notify" id="notify">
+    <div class="container">
+      <div class="notify-card">
+        <div>
+          <h3>Have an idea for a new app or tool? Lets Talk!</h3>
+          <p>One email at launch. No newsletter, no drip campaign, no "exclusive" anything. You can unsubscribe by ignoring it — there will only be the one.</p>
+        </div>
+        <form class="notify-form" id="notifyForm" novalidate>
+          <input id="email" type="email" placeholder="you@studio.com" autocomplete="email" required />
+          <button class="btn btn-primary" type="submit" id="notifyBtn">
+            Notify me
+            <svg class="arrow" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8 H12.5"/><path d="M9 4.5 L12.5 8 L9 11.5"/></svg>
+          </button>
+        </form>
+        <div class="notify-success" id="notifySuccess">
+          <span class="check-circle" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5 L7 12 L13 5"/></svg>
+          </span>
+          <span id="notifySuccessText">You're on the list. We'll only send the launch note.</span>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
@@ -640,13 +727,14 @@
     <div class="footer-meta">
       <span>S3 Labs</span>
       <span class="sep">·</span>
-      <span>Studio in stealth</span>
+      <span>An Agentic Development Agency</span>
       <span class="sep">·</span>
-      <span>Made with <span style="color:var(--mark-red);" aria-label="love">❤</span> by Tom &amp; Alex from <a href="https://s3labs.tech" target="_blank" rel="noopener" style="color:var(--text-secondary);transition:color var(--dur-base) var(--ease-out);" onmouseover="this.style.color='var(--brand)'" onmouseout="this.style.color='var(--text-secondary)'">S3 Labs</a></span>
+      <span>Made with <span style="color:var(--mark-red);" aria-label="love">❤</span> by Tom &amp; Alex from <a class="s3-link" href="https://s3labs.tech" target="_blank" rel="noopener">S3 Labs</a></span>
     </div>
     <div class="footer-links">
       <a href="https://dropdoc.sh" target="_blank" rel="noopener">DropDoc</a>
-      <a href="mailto:tom@casalabs.shop">Email</a>
+      <a href="#notify">Notify me</a>
+      <a href="mailto:tom@casalabs.shop">hello@s3.labs</a>
     </div>
   </div>
 </footer>
@@ -677,6 +765,43 @@
     });
   })();
 
+  // --- Notify form: client-side only, persists locally ---
+  (function(){
+    const form = document.getElementById('notifyForm');
+    const input = document.getElementById('email');
+    const ok = document.getElementById('notifySuccess');
+    const okText = document.getElementById('notifySuccessText');
+    if(!form) return;
+
+    // Restore prior submission
+    try{
+      const saved = localStorage.getItem('s3:notify');
+      if(saved){
+        form.classList.add('hidden');
+        ok.classList.add('show');
+        okText.textContent = "You're on the list (" + saved + "). We'll only send the launch note.";
+      }
+    }catch(e){}
+
+    const valid = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const v = input.value.trim();
+      if(!valid(v)){
+        input.classList.add('error');
+        input.focus();
+        return;
+      }
+      input.classList.remove('error');
+      try{ localStorage.setItem('s3:notify', v); }catch(e){}
+      form.classList.add('hidden');
+      ok.classList.add('show');
+      okText.textContent = "You're on the list (" + v + "). We'll only send the launch note.";
+    });
+
+    input.addEventListener('input', () => input.classList.remove('error'));
+  })();
 </script>
 
 </body>
