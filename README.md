@@ -1,6 +1,6 @@
 # s3labs.tech
 
-Coming-soon page for S3 Labs. Plain static site — `index.html` at the repo root, deployed via Vercel.
+Marketing site for S3 Labs. Plain static site — three pages at the repo root (`index.html`, `projects.html`, `library.html`), deployed via Vercel with clean URLs.
 
 No build step. To preview locally:
 

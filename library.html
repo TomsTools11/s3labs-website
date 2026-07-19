@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software Library — S3 Labs</title>
+<meta name="description" content="A curated library of the best free and low-cost tools we use and recommend — across AI, productivity, design, and dev.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Software Library — S3 Labs">
+<meta property="og:description" content="A curated library of the best free and low-cost tools we use and recommend — across AI, productivity, design, and dev.">
+<meta property="og:site_name" content="S3 Labs">
+<meta property="og:url" content="https://s3labs.tech/library">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="assets/img/favicon.png?v=3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<noscript><style>[data-reveal]{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body>
+<div style="position:relative;width:100%;min-height:100vh;">
+  <div style="position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none;">
+    <div style="position:absolute;top:-12%;left:6%;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,rgba(64,126,201,.30),transparent 68%);filter:blur(30px);animation:floatA 16s ease-in-out infinite;"></div>
+    <div style="position:absolute;top:0;right:2%;width:480px;height:480px;border-radius:50%;background:radial-gradient(circle,rgba(92,155,232,.24),transparent 68%);filter:blur(30px);animation:floatB 19s ease-in-out infinite;"></div>
+  </div>
+
+  <nav style="position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:16px 32px;background:rgba(11,12,16,.72);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.06);">
+    <a href="index.html" style="display:flex;align-items:center;gap:11px;"><img src="assets/img/logo-s3labs.png" alt="S3 Labs" style="height:59px;width:124px;display:block;"></a>
+    <div style="display:flex;align-items:center;gap:30px;">
+      <a href="index.html" style="font-size:14.5px;color:#99A1AD;font-weight:500;" class="hv1">Home</a>
+      <a href="projects.html" style="font-size:14.5px;color:#99A1AD;font-weight:500;" class="hv1">Projects</a>
+      <a href="library.html" style="font-size:14.5px;color:#F3F5F8;font-weight:500;">Software Library</a>
+      <a href="https://dropdoc.sh" target="_blank" style="font-size:14px;font-weight:600;color:#0B0C10;background:linear-gradient(135deg,#5C9BE8,#2E6BB0);padding:9px 18px;border-radius:10px;" class="hv2">Try DropDoc <span style="font-family:'Fira Code';">↗</span></a>
+    </div>
+  </nav>
+
+  <div style="position:relative;z-index:1;">
+
+    <!-- HERO -->
+    <section style="max-width:900px;margin:0 auto;padding:188px 32px 40px;text-align:center;">
+      <div data-reveal style="opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);display:inline-block;font-family:'Fira Code';font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#5C9BE8;border:1px solid rgba(92,155,232,.28);background:rgba(92,155,232,.07);padding:7px 13px;border-radius:100px;margin-bottom:24px;">Software Library</div>
+      <h1 data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);font-family:'Lato';font-weight:900;font-size:54px;line-height:1.05;letter-spacing:-1.8px;margin:0 0 20px;">Find high-value software.<br><span style="background:linear-gradient(100deg,#5C9BE8,#2E6BB0);-webkit-background-clip:text;background-clip:text;color:transparent;">Keep your wallet closed.</span></h1>
+      <p data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);font-size:18px;line-height:1.6;color:#B6BDC7;max-width:600px;margin:0 auto 30px;">The tools we use and recommend — across AI, sales, productivity, design, automation, and more. Curated the same way we build: no bloat.</p>
+      <div data-reveal data-reveal-delay="220" style="opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);display:flex;align-items:center;gap:12px;max-width:520px;margin:0 auto;">
+        <div style="flex:1;display:flex;align-items:center;gap:11px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.14);border-radius:13px;padding:13px 16px;">
+          <span style="color:#5C6470;font-size:16px;">⌕</span>
+          <input data-search type="text" placeholder="Search the library…" style="flex:1;background:transparent;border:none;outline:none;color:#F3F5F8;font-size:15px;">
+        </div>
+        <a href="mailto:tom@casalabs.shop" style="flex:none;font-weight:600;font-size:14.5px;color:#0B0C10;background:linear-gradient(135deg,#5C9BE8,#2E6BB0);padding:14px 22px;border-radius:13px;white-space:nowrap;" class="hv12">Submit an app</a>
+      </div>
+    </section>
+
+    <!-- FILTER + GRID -->
+    <section style="max-width:1180px;margin:0 auto;padding:24px 32px 90px;">
+      <div data-reveal style="opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);display:flex;align-items:center;justify-content:center;margin-bottom:30px;">
+        <div data-filterbar style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;">
+          <button data-filter="All" style="cursor:pointer;font-family:'Fira Code';font-size:12.5px;letter-spacing:.5px;color:#0B0C10;background:linear-gradient(135deg,#5C9BE8,#2E6BB0);border:1px solid transparent;padding:8px 15px;border-radius:9px;">All</button>
+          <button data-filter="AI" style="cursor:pointer;font-family:'Fira Code';font-size:12.5px;letter-spacing:.5px;color:#9BA3AD;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);padding:8px 15px;border-radius:9px;">AI</button>
+          <button data-filter="Productivity" style="cursor:pointer;font-family:'Fira Code';font-size:12.5px;letter-spacing:.5px;color:#9BA3AD;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);padding:8px 15px;border-radius:9px;">Productivity</button>
+          <button data-filter="Design" style="cursor:pointer;font-family:'Fira Code';font-size:12.5px;letter-spacing:.5px;color:#9BA3AD;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);padding:8px 15px;border-radius:9px;">Design</button>
+          <button data-filter="Sales/Marketing" style="cursor:pointer;font-family:'Fira Code';font-size:12.5px;letter-spacing:.5px;color:#9BA3AD;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);padding:8px 15px;border-radius:9px;">Sales/Marketing</button>
+          <button data-filter="Automation" style="cursor:pointer;font-family:'Fira Code';font-size:12.5px;letter-spacing:.5px;color:#9BA3AD;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);padding:8px 15px;border-radius:9px;">Automation</button>
+          <button data-filter="Finance" style="cursor:pointer;font-family:'Fira Code';font-size:12.5px;letter-spacing:.5px;color:#9BA3AD;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);padding:8px 15px;border-radius:9px;">Finance</button>
+          <button data-filter="Dev" style="cursor:pointer;font-family:'Fira Code';font-size:12.5px;letter-spacing:.5px;color:#9BA3AD;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);padding:8px 15px;border-radius:9px;">Dev</button>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;">
+        <a href="https://claude.ai" target="_blank" data-card data-cat="AI" data-name="claude ai" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Claude.webp" alt="Claude" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#5C9BE8;border:1px solid rgba(92,155,232,.4);padding:4px 9px;border-radius:7px;">Freemium</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Claude</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">claude.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Our daily driver for writing, reasoning, and building.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://claude.ai/code" target="_blank" data-card data-cat="Dev" data-name="claude code dev" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Claude_Code.png" alt="Claude Code" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#5C9BE8;border:1px solid rgba(92,155,232,.4);padding:4px 9px;border-radius:7px;">Freemium</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Claude Code</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">claude.ai/code</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Agentic coding in the terminal — builds and ships with you.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Dev</span>
+        </a>
+        <a href="https://raycast.com" target="_blank" data-card data-cat="Productivity" data-name="raycast productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Raycast.png" alt="Raycast" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#7FB4F0;border:1px solid rgba(127,180,240,.4);padding:4px 9px;border-radius:7px;">Free</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Raycast</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">raycast.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Spotlight on superpowers — launch, automate, and search.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://manus.im" target="_blank" data-card data-cat="AI" data-name="manus ai ai" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Manus_AI.png" alt="Manus AI" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#5C9BE8;border:1px solid rgba(92,155,232,.4);padding:4px 9px;border-radius:7px;">Freemium</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Manus AI</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">manus.im</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">A general AI agent that plans and executes multi-step tasks.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://smithery.ai" target="_blank" data-card data-cat="Dev" data-name="smithery dev" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Smithery.webp" alt="Smithery" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#7FB4F0;border:1px solid rgba(127,180,240,.4);padding:4px 9px;border-radius:7px;">Free</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Smithery</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">smithery.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Your agent's gateway — 2,000+ MCP tools, one command.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Dev</span>
+        </a>
+        <a href="https://superhuman.com" target="_blank" data-card data-cat="Productivity" data-name="superhuman productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Superhuman.png" alt="Superhuman" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#5C9BE8;border:1px solid rgba(92,155,232,.4);padding:4px 9px;border-radius:7px;">Freemium</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Superhuman</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">superhuman.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">The fastest email experience ever made — fly through your inbox.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://gemini.google.com" target="_blank" data-card data-cat="AI" data-name="google gemini ai" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Google_Gemini.svg" alt="Google Gemini" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#5C9BE8;border:1px solid rgba(92,155,232,.4);padding:4px 9px;border-radius:7px;">Freemium</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Google Gemini</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">gemini.google.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Google's multimodal AI for reasoning, research, and writing.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://bear.app" target="_blank" data-card data-cat="Productivity" data-name="bear productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Bear.png" alt="Bear" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#5C9BE8;border:1px solid rgba(92,155,232,.4);padding:4px 9px;border-radius:7px;">Freemium</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Bear</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">bear.app</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">A fast, beautiful Markdown notes app for Apple devices.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://netlify.com" target="_blank" data-card data-cat="Design" data-name="netlify design" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Netlify.png" alt="Netlify" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#7FB4F0;border:1px solid rgba(127,180,240,.4);padding:4px 9px;border-radius:7px;">Free</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Netlify</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">netlify.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Ship and host front-end projects with zero config.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+        <a href="https://vercel.com" target="_blank" data-card data-cat="Dev" data-name="vercel dev" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Vercel.svg" alt="Vercel" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#5C9BE8;border:1px solid rgba(92,155,232,.4);padding:4px 9px;border-radius:7px;">Freemium</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Vercel</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">vercel.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Deploy front-end apps to a global edge network — zero config.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Dev</span>
+        </a>
+        <a href="https://notebooklm.google" target="_blank" data-card data-cat="AI" data-name="notebooklm ai" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/NotebookLM.png" alt="NotebookLM" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#7FB4F0;border:1px solid rgba(127,180,240,.4);padding:4px 9px;border-radius:7px;">Free</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">NotebookLM</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">notebooklm.google</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Turn your sources into grounded notes, summaries, and audio.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://workspace.google.com" target="_blank" data-card data-cat="Design" data-name="google workspace design" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Google_Workspace.png" alt="Google Workspace" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+            <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#8FA9CE;border:1px solid rgba(143,169,206,.4);padding:4px 9px;border-radius:7px;">Low-cost</span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Google Workspace</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">workspace.google.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Docs, Sheets, and Slides — now with Gemini built in.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+
+        <a href="https://get.mem.ai/" target="_blank" data-card data-cat="AI" data-name="mem.ai ai" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Mem_Ai.jpg" alt="Mem.ai" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Mem.ai</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">mem.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI-powered knowledge base that organizes and resurfaces your notes.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://mailchimp.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="mailchimp sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Mailchimp.png" alt="MailChimp" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">MailChimp</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">mailchimp.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Email campaigns with automation, segmentation, and A/B testing.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://zapier.com" target="_blank" data-card data-cat="Automation" data-name="zapier automation" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Zapier.png" alt="Zapier" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Zapier</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">zapier.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Connect your apps and automate workflows — no code required.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Automation</span>
+        </a>
+        <a href="https://ticktick.com/" target="_blank" data-card data-cat="Productivity" data-name="ticktick productivity" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/TickTick.png" alt="TickTick" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">TickTick</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">ticktick.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">To-do lists, calendars, habit tracking, and team collaboration.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://plausible.io" target="_blank" data-card data-cat="Productivity" data-name="plausible productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Plausible.png" alt="Plausible" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Plausible</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">plausible.io</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Open-source, cookie-free analytics — GDPR compliant by default.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://typeform.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="typeform sales/marketing" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Typeform.png" alt="Typeform" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Typeform</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">typeform.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Survey and form builder with logic jumps and clean templates.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://lemlist.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="lemlist sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/LemList.png" alt="Lemlist" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Lemlist</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">lemlist.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Personalized cold-email campaigns with automated follow-ups.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://copper.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="copper crm sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Copper_CRM.png" alt="Copper CRM" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Copper CRM</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">copper.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Cloud CRM with workflow automation and real-time insights.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.wrike.com" target="_blank" data-card data-cat="Productivity" data-name="wrike productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Wrike.png" alt="Wrike" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Wrike</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">wrike.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Work management platform with real-time task tracking.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://culturedcode.com/things/" target="_blank" data-card data-cat="Productivity" data-name="things 3 productivity" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Things_3.webp" alt="Things 3" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Things 3</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">culturedcode.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">A personal task manager for planning your day and projects.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://notion.so/calendar" target="_blank" data-card data-cat="Productivity" data-name="notion calendar productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Notion_Calendar.svg" alt="Notion Calendar" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Notion Calendar</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">notion.so</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Time management that ties your calendar to your Notion workspace.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.browse.ai" target="_blank" data-card data-cat="AI" data-name="browse ai ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Browse_AI.png" alt="Browse AI" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Browse AI</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">browse.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Scrape and monitor data from any website — no code.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://yesware7054.partnerlinks.io/dblci0dglza6" target="_blank" data-card data-cat="Sales/Marketing" data-name="yesware sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Yesware.png" alt="Yesware" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Yesware</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">yesware.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Email tracking, campaigns, scheduling, and sales analytics.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.webpilot.ai" target="_blank" data-card data-cat="AI" data-name="webpilot ai" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/WebPilot.png" alt="WebPilot" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">WebPilot</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">webpilot.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Chrome extension and API for chatting with any webpage.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://invite.hotjar.com/p3y79aqbd5sh" target="_blank" data-card data-cat="AI" data-name="hotjar ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Hotjar.png" alt="Hotjar" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Hotjar</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">hotjar.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Heatmaps, session recordings, and surveys for user insight.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://evernote.com/" target="_blank" data-card data-cat="Productivity" data-name="evernote productivity" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Evernote.png" alt="Evernote" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Evernote</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">evernote.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Note-taking with tasks, reminders, and document organization.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://tally.so" target="_blank" data-card data-cat="Sales/Marketing" data-name="tally sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Tally.svg" alt="Tally" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Tally</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">tally.so</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">A powerful, free form builder with logic and calculations.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.chatbase.co/" target="_blank" data-card data-cat="AI" data-name="chatbase ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Chatbase.webp" alt="Chatbase" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Chatbase</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">chatbase.co</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Build custom chatbots trained on your own data.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://pipedrive.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="pipedrive sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Pipedrive.png" alt="Pipedrive" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Pipedrive</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">pipedrive.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">CRM built around a clear, easy-to-manage sales pipeline.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.nimble.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="nimble sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/NimbleCRM.jpg" alt="Nimble" style="width:46px;height:46px;object-fit:cover;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Nimble</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">nimble.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Contact-first CRM for Office 365 and Google Workspace.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://slack.com" target="_blank" data-card data-cat="Productivity" data-name="slack productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Slack.png" alt="Slack" style="width:46px;height:46px;object-fit:cover;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Slack</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">slack.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Team messaging with file sharing, search, and integrations.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://canva.com" target="_blank" data-card data-cat="Design" data-name="canva design" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Canva.svg" alt="Canva" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Canva</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">canva.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Drag-and-drop design with templates for pro-looking graphics.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+        <a href="https://www.freshworks.com/crm/sales/" target="_blank" data-card data-cat="Sales/Marketing" data-name="freshsales sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Freshsales.png" alt="Freshsales" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Freshsales</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">freshworks.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Sales CRM with AI contact scoring and workflow automation.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://sparkmailapp.com/" target="_blank" data-card data-cat="Productivity" data-name="spark mail productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Spark_Mail.webp" alt="Spark Mail" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Spark Mail</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">sparkmailapp.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">A sleek email client with smart inbox and integrations.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://apollo.io" target="_blank" data-card data-cat="Sales/Marketing" data-name="apollo sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Apollo.png" alt="Apollo" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Apollo</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">apollo.io</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Data intelligence and sales engagement in one platform.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://affiliate.notion.so/1mhbklys2q68" target="_blank" data-card data-cat="Productivity" data-name="notion productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Notion.svg" alt="Notion" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Notion</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">notion.so</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">All-in-one workspace for notes, tasks, and databases.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://bardeen.ai" target="_blank" data-card data-cat="Automation" data-name="bardeen automation" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Bardeen.webp" alt="Bardeen" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Bardeen</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">bardeen.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Replace repetitive browser tasks with one-click automations.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Automation</span>
+        </a>
+        <a href="https://www.zoho.com/crm/" target="_blank" data-card data-cat="Sales/Marketing" data-name="zoho crm sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Zoho_CRM.png" alt="Zoho CRM" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Zoho CRM</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">zoho.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">360° CRM for mid-size businesses to large enterprises.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.nutshell.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="nutshell sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Nutshell.png" alt="Nutshell" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Nutshell</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">nutshell.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">All-in-one CRM and email marketing for B2B teams.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://figma.com" target="_blank" data-card data-cat="Design" data-name="figma design" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Figma.png" alt="Figma" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Figma</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">figma.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Collaborative interface design with real-time multiplayer.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+        <a href="https://www.atlassian.com/software/confluence" target="_blank" data-card data-cat="Automation" data-name="confluence automation" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Confluence.png" alt="Confluence" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Confluence</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">atlassian.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Team knowledge base for docs, ideas, and decisions.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Automation</span>
+        </a>
+        <a href="https://amie.so" target="_blank" data-card data-cat="Productivity" data-name="amie productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Amie.png" alt="Amie" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Amie</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">amie.so</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Calendar, todos, and email in one unified app.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://trello.com" target="_blank" data-card data-cat="Productivity" data-name="trello productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Trello.svg" alt="Trello" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Trello</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">trello.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Kanban boards that keep projects organized and on time.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.agilecrm.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="agile crm sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Agile_CRM.png" alt="Agile CRM" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Agile CRM</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">agilecrm.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Integrated marketing, sales, and service for small business.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://clickup.com/" target="_blank" data-card data-cat="Productivity" data-name="clickup productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/ClickUp.png" alt="ClickUp" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">ClickUp</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">clickup.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Tasks, docs, goals, and chat in one project platform.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.sugarcrm.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="sugarcrm sales/marketing" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/SugarCRM.png" alt="SugarCRM" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">SugarCRM</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">sugarcrm.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Sales, marketing, and service platform for growing companies.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://hubspot.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="hubspot sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/HubSpot.webp" alt="HubSpot" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">HubSpot</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">hubspot.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Marketing, sales, and service hub with a free CRM core.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://attio.com/" target="_blank" data-card data-cat="Sales/Marketing" data-name="attio sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Attio.png" alt="Attio" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Attio</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">attio.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Customizable CRM with relationship intelligence built in.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://textsniper.app/" target="_blank" data-card data-cat="Productivity" data-name="textsniper productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Text_Sniper.png" alt="TextSniper" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">TextSniper</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">textsniper.app</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Quickly capture and edit text across your documents.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.airtable.com/" target="_blank" data-card data-cat="Productivity" data-name="airtable productivity" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Airtable.png" alt="Airtable" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Airtable</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">airtable.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Spreadsheet-database hybrid with customizable workflows.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.gong.io" target="_blank" data-card data-cat="Sales/Marketing" data-name="gong sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Gong.png" alt="Gong" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Gong</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">gong.io</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Revenue intelligence from AI-analyzed customer interactions.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://insightly.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="insightly sales/marketing" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Insightly.png" alt="Insightly" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Insightly</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">insightly.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Easy CRM for contacts, tasks, and project delivery.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.engagebay.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="engagebay sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Engagebay.png" alt="EngageBay" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">EngageBay</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">engagebay.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Affordable all-in-one marketing, sales, and support suite.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.outreach.io" target="_blank" data-card data-cat="Sales/Marketing" data-name="outreach sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Outreach.png" alt="Outreach" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Outreach</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">outreach.io</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Sales execution platform to create and close more pipeline.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://supernormal.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="supernormal sales/marketing" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/SuperNormal.png" alt="Supernormal" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Supernormal</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">supernormal.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Async video updates with AI-powered summaries.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://asana.com/" target="_blank" data-card data-cat="Productivity" data-name="asana productivity" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Asana.png" alt="Asana" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Asana</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">asana.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Project management that keeps teams on top of deadlines.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://getresponse.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="getresponse sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/GetResponse.png" alt="GetResponse" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">GetResponse</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">getresponse.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Email marketing with campaigns, automation, and analytics.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://zoominfo.com/" target="_blank" data-card data-cat="Sales/Marketing" data-name="zoominfo sales/marketing" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/ZoomInfo.png" alt="ZoomInfo" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">ZoomInfo</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">zoominfo.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Real-time B2B contact and company data at scale.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://super.so/" target="_blank" data-card data-cat="Design" data-name="super design" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Super.webp" alt="Super" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Super</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">super.so</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Turn Notion pages into fast, custom websites.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+        <a href="https://coda.io/" target="_blank" data-card data-cat="Productivity" data-name="coda productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Coda.png" alt="Coda" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Coda</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">coda.io</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Docs that blend spreadsheets, apps, and automation.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://monday.com" target="_blank" data-card data-cat="Productivity" data-name="monday productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Monday.svg" alt="Monday" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Monday</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">monday.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Visual project platform for tracking work and progress.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.salesloft.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="salesloft sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/SalesLoft.png" alt="Salesloft" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Salesloft</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">salesloft.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI revenue workflow platform for closing and forecasting.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://slapdash.com" target="_blank" data-card data-cat="Automation" data-name="slapdash automation" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Slapdash.png" alt="Slapdash" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Slapdash</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">slapdash.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">One command bar across all of your web apps.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Automation</span>
+        </a>
+        <a href="https://www.cassidyai.com/" target="_blank" data-card data-cat="AI" data-name="cassidy ai ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Cassidy_AI.png" alt="Cassidy AI" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Cassidy AI</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">cassidyai.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Custom AI assistants and workflows on your company data.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://followr.ai/" target="_blank" data-card data-cat="Sales/Marketing" data-name="followr sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Followr.webp" alt="Followr" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Followr</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">followr.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI social media management — content, scheduling, engagement.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://sendfox.com/" target="_blank" data-card data-cat="Sales/Marketing" data-name="sendfox sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/SendFox.png" alt="SendFox" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">SendFox</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">sendfox.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Affordable email newsletters built for content creators.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://customer.io/" target="_blank" data-card data-cat="Sales/Marketing" data-name="customer.io sales/marketing" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Customer_io.png" alt="Customer.io" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Customer.io</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">customer.io</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Automated, personalized messaging across email, SMS, and push.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.clay.com/" target="_blank" data-card data-cat="Sales/Marketing" data-name="clay sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Clay.png" alt="Clay" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Clay</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">clay.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Data enrichment and AI-personalized outreach at scale.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://superface.ai/" target="_blank" data-card data-cat="AI" data-name="superface ai" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Superface.png" alt="Superface" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Superface</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">superface.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Automate tasks across systems using natural language.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://saner.ai/" target="_blank" data-card data-cat="AI" data-name="saner ai ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Saner_AI.png" alt="Saner AI" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Saner AI</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">saner.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI notes with search, summaries, and context-aware suggestions.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://www.arcade.software/" target="_blank" data-card data-cat="Sales/Marketing" data-name="arcade sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Arcade.png" alt="Arcade" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Arcade</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">arcade.software</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Interactive product demos you can record, edit, and share.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://genspark.ai" target="_blank" data-card data-cat="AI" data-name="genspark ai" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Genspark.png" alt="Genspark" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Genspark</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">genspark.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">An AI copilot woven into your everyday web experience.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://chipp.ai" target="_blank" data-card data-cat="AI" data-name="chipp ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Chipp.png" alt="Chipp" style="width:46px;height:46px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Chipp</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">chipp.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">No-code platform for building and sharing custom AI apps.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://clearbit.com/" target="_blank" data-card data-cat="Sales/Marketing" data-name="clearbit sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Clearbit.png" alt="Clearbit" style="width:46px;height:46px;object-fit:cover;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Clearbit</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">clearbit.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">B2B data enrichment with real-time scoring and CRM sync.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://supernotes.app/" target="_blank" data-card data-cat="Productivity" data-name="supernotes productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/SuperNotes.png" alt="Supernotes" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Supernotes</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">supernotes.app</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Fast note-cards with collaboration for students and teams.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://byword.ai/" target="_blank" data-card data-cat="AI" data-name="byword ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/byword_ai.png" alt="Byword" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Byword</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">byword.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Generate high-quality articles at scale with AI.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://www.jasper.ai/" target="_blank" data-card data-cat="AI" data-name="jasper ai" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Jasper_AI.svg" alt="Jasper" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Jasper</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">jasper.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Enterprise AI for on-brand marketing content and campaigns.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://www.copy.ai/" target="_blank" data-card data-cat="AI" data-name="copy.ai ai" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Copy_ai.webp" alt="Copy.ai" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Copy.ai</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">copy.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI workflows for marketing and sales content automation.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://writesonic.com/" target="_blank" data-card data-cat="AI" data-name="writesonic ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/WriteSonic.png" alt="Writesonic" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Writesonic</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">writesonic.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI writing, SEO, and chatbot tools with live web data.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://www.folk.app/" target="_blank" data-card data-cat="Sales/Marketing" data-name="folk sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Folk_CRM.png" alt="Folk" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Folk</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">folk.app</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">A simple, flexible CRM with AI-enhanced outreach.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://seamless.ai" target="_blank" data-card data-cat="Sales/Marketing" data-name="seamless.ai sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Seamless_AI.png" alt="Seamless.AI" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Seamless.AI</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">seamless.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Real-time lead data and automated list building.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.lusha.com/" target="_blank" data-card data-cat="Sales/Marketing" data-name="lusha sales/marketing" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Lusha.png" alt="Lusha" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Lusha</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">lusha.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Accurate B2B contact data with CRM integrations.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://appsumo.com/" target="_blank" data-card data-cat="Productivity" data-name="appsumo productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/AppSumo.png" alt="AppSumo" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">AppSumo</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">appsumo.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Lifetime deals on software and tools for entrepreneurs.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.skool.com/" target="_blank" data-card data-cat="Sales/Marketing" data-name="skool sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Skool.png" alt="Skool" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Skool</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">skool.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Community platform blending social and course tools.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://letterly.app" target="_blank" data-card data-cat="AI" data-name="letterly ai" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Letterly.png" alt="Letterly" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Letterly</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">letterly.app</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Turn speech into polished text on your phone.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://ninjapipe.com/" target="_blank" data-card data-cat="Sales/Marketing" data-name="ninjapipe sales/marketing" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/NinjaPipe.png" alt="NinjaPipe" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">NinjaPipe</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">ninjapipe.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">All-inclusive CRM and sales automation platform.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.beehiiv.com/" target="_blank" data-card data-cat="Sales/Marketing" data-name="beehiiv sales/marketing" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Beehiiv.png" alt="Beehiiv" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Beehiiv</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">beehiiv.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Create, grow, and monetize newsletters — no code.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.clickfunnels.com/" target="_blank" data-card data-cat="Sales/Marketing" data-name="clickfunnels sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/ClickFunnels.webp" alt="ClickFunnels" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">ClickFunnels</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">clickfunnels.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Sales funnels, landing pages, and membership sites.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://carrd.co/" target="_blank" data-card data-cat="Design" data-name="carrd design" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Carrd.png" alt="Carrd" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Carrd</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">carrd.co</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Simple, responsive one-page websites for anything.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+        <a href="https://www.framer.com/" target="_blank" data-card data-cat="Design" data-name="framer design" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Framer.svg" alt="Framer" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Framer</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">framer.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Design and publish interactive, high-fidelity sites.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+        <a href="https://www.lemonsqueezy.com/" target="_blank" data-card data-cat="Finance" data-name="lemon squeezy finance" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Lemon_Squeezy.png" alt="Lemon Squeezy" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Lemon Squeezy</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">lemonsqueezy.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Payments, subscriptions, and global tax for software.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Finance</span>
+        </a>
+        <a href="https://linktr.ee/" target="_blank" data-card data-cat="Productivity" data-name="linktree productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Linktree.webp" alt="Linktree" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Linktree</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">linktr.ee</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">One landing page for all your links.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.make.com/en" target="_blank" data-card data-cat="Automation" data-name="make automation" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Make.png" alt="Make" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Make</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">make.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Visual automation for workflows, apps, and systems.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Automation</span>
+        </a>
+        <a href="https://www.glideapps.com/" target="_blank" data-card data-cat="Design" data-name="glide design" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Glide.svg" alt="Glide" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Glide</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">glideapps.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Build custom business apps from your spreadsheets.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+        <a href="https://skail.ai/signup" target="_blank" data-card data-cat="AI" data-name="skail ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Skail.png" alt="Skail" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Skail</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">skail.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Digital-clone AI that writes outreach in your voice.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://phantombuster.com" target="_blank" data-card data-cat="Automation" data-name="phantombuster automation" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Phantombuster.png" alt="PhantomBuster" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">PhantomBuster</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">phantombuster.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">No-code lead gen, scraping, and social automation.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Automation</span>
+        </a>
+        <a href="https://capture.so/" target="_blank" data-card data-cat="Productivity" data-name="capture productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Capture.png" alt="Capture" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Capture</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">capture.so</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Capture notes, to-dos, and links before they're lost.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://fabric.so" target="_blank" data-card data-cat="Productivity" data-name="fabric productivity" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Fabric.webp" alt="Fabric" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Fabric</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">fabric.so</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI workspace that unifies drives, notes, links, and files.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.bravostudio.app/" target="_blank" data-card data-cat="AI" data-name="bravo studio ai" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Bravo_Studio.png" alt="Bravo Studio" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Bravo Studio</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">bravostudio.app</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Turn designs into native mobile apps — no developers.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://www.deepseek.com/" target="_blank" data-card data-cat="AI" data-name="deepseek ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/DeepSeek.png" alt="DeepSeek" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">DeepSeek</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">deepseek.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Open-source large language models from DeepSeek.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://akiflow.com/" target="_blank" data-card data-cat="Productivity" data-name="akiflow productivity" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Akiflow.png" alt="Akiflow" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Akiflow</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">akiflow.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Daily planner unifying tasks and calendar.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.superlist.com/" target="_blank" data-card data-cat="Productivity" data-name="superlist productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Superlist.png" alt="Superlist" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Superlist</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">superlist.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Real-time to-do lists and notes for teams.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://get.keap.com/am6gkzjjp2h3" target="_blank" data-card data-cat="Sales/Marketing" data-name="keap sales/marketing" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Keap.png" alt="Keap" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Keap</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">keap.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">CRM and automation built for small businesses.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://diginius.com/" target="_blank" data-card data-cat="AI" data-name="diginius ai" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Diginius.png" alt="Diginius" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Diginius</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">diginius.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Unify data, reporting, and ad performance in one place.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://www.twosapp.com/" target="_blank" data-card data-cat="Productivity" data-name="twos productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Twos.png" alt="Twos" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Twos</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">twosapp.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Notes, to-dos, reminders, and events in one app.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://n8n.io/" target="_blank" data-card data-cat="Automation" data-name="n8n automation" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/n8n.png" alt="n8n" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">n8n</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">n8n.io</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Open-source, low-code workflow automation.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Automation</span>
+        </a>
+        <a href="https://lex.page/" target="_blank" data-card data-cat="AI" data-name="lex ai" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Lex.png" alt="Lex" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Lex</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">lex.page</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI-powered writing and research assistant.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://reply.io/" target="_blank" data-card data-cat="Sales/Marketing" data-name="reply.io sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Reply_io.jpg" alt="Reply.io" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Reply.io</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">reply.io</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI sales engagement for scaled outbound.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://moosend.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="moosend sales/marketing" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Moosend.png" alt="Moosend" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Moosend</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">moosend.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Email marketing with automation and AI analytics.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://you.com/join/ECQADBVS" target="_blank" data-card data-cat="AI" data-name="you.com ai" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/You_com.png" alt="You.com" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">You.com</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">you.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI search and productivity for the workplace.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://resumup.com/" target="_blank" data-card data-cat="AI" data-name="resumup ai" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/ResumUp.png" alt="ResumUp" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">ResumUp</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">resumup.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI resume builder for ATS-friendly resumes.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://popsy.co" target="_blank" data-card data-cat="Design" data-name="popsy design" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Popsy.jpg" alt="Popsy" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Popsy</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">popsy.co</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Notion-style, no-code website builder.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+        <a href="https://front.com" target="_blank" data-card data-cat="Productivity" data-name="front productivity" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Front.svg" alt="Front" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Front</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">front.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Shared inbox for customer conversations across channels.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://aircall.io" target="_blank" data-card data-cat="Productivity" data-name="aircall productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Aircall.png" alt="Aircall" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Aircall</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">aircall.io</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Cloud phone system that plugs into your CRM.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://www.jotform.com" target="_blank" data-card data-cat="Design" data-name="jotform design" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Jotform.png" alt="Jotform" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Jotform</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">jotform.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Build and customize online forms — no code.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+        <a href="https://www.lucidchart.com" target="_blank" data-card data-cat="Productivity" data-name="lucidchart productivity" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Lucidchart.png" alt="Lucidchart" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Lucidchart</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">lucidchart.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Intelligent diagramming for flowcharts and org charts.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://convertkit.com" target="_blank" data-card data-cat="Sales/Marketing" data-name="convertkit sales/marketing" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/ConvertKit.png" alt="ConvertKit" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">ConvertKit</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">convertkit.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Email marketing built for creators.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Sales/Marketing</span>
+        </a>
+        <a href="https://www.docusign.com" target="_blank" data-card data-cat="Productivity" data-name="docusign productivity" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/DocuSign.png" alt="DocuSign" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">DocuSign</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">docusign.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Electronic signatures and agreement management.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://ifttt.com" target="_blank" data-card data-cat="Automation" data-name="ifttt automation" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/IFTTT.svg" alt="IFTTT" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">IFTTT</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">ifttt.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Automate apps and devices with simple if-this-then-that logic.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Automation</span>
+        </a>
+        <a href="https://mintlify.com" target="_blank" data-card data-cat="Productivity" data-name="mintlify productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Mintlify.png" alt="Mintlify" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Mintlify</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">mintlify.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI-native documentation platform for developers.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://linear.app" target="_blank" data-card data-cat="Productivity" data-name="linear productivity" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Linear.svg" alt="Linear" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Linear</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">linear.app</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Streamlined issues, projects, and roadmaps for product teams.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://flagship.ai" target="_blank" data-card data-cat="Finance" data-name="flagship finance" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Flagship.svg" alt="Flagship" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Flagship</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">flagship.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Visual merchandising strategy platform for retailers.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Finance</span>
+        </a>
+        <a href="https://incredible.one" target="_blank" data-card data-cat="AI" data-name="incredible ai" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#1b2130;flex:none;overflow:hidden;"><img src="assets/img/lib/Incredible.webp" alt="Incredible" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Incredible</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">incredible.one</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Agentic AI for business automation with 200+ integrations.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://saldor.com" target="_blank" data-card data-cat="AI" data-name="saldor ai" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Saldor.png" alt="Saldor" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Saldor</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">saldor.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Voice AI for hands-free email and scheduling.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://www.perplexity.ai/comet" target="_blank" data-card data-cat="AI" data-name="perplexity comet ai" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Perplexity_Comet.png" alt="Perplexity Comet" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Perplexity Comet</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">perplexity.ai</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">AI-native browser with a built-in research assistant.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://openai.com/codex/" target="_blank" data-card data-cat="AI" data-name="gpt codex ai" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/GPT_Codex.png" alt="GPT Codex" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">GPT Codex</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">openai.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">OpenAI's coding agent that writes and fixes code for you.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://openai.com/index/introducing-chatgpt-atlas/" target="_blank" data-card data-cat="AI" data-name="chatgpt atlas ai" data-reveal data-reveal-delay="0" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/ChatGPT_Atlas.png" alt="ChatGPT Atlas" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">ChatGPT Atlas</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">openai.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">OpenAI's AI browser with memory and task automation.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">AI</span>
+        </a>
+        <a href="https://aquavoice.com/" target="_blank" data-card data-cat="Productivity" data-name="aqua voice productivity" data-reveal data-reveal-delay="80" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/Aqua_Voice.png" alt="Aqua Voice" style="width:38px;height:38px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Aqua Voice</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">aquavoice.com</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Real-time voice-to-text that understands context.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Productivity</span>
+        </a>
+        <a href="https://superdesign.dev/" target="_blank" data-card data-cat="Design" data-name="superdesign design" data-reveal data-reveal-delay="160" style="opacity:0;transform:translateY(24px);transition:opacity .55s cubic-bezier(.2,.7,.2,1),transform .55s cubic-bezier(.2,.7,.2,1),border-color .25s,background .25s;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;background:rgba(255,255,255,.02);" class="hv13">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+            <span style="display:grid;place-items:center;width:46px;height:46px;border-radius:12px;background:#fff;flex:none;overflow:hidden;"><img src="assets/img/lib/SuperDesign.svg" alt="Superdesign" style="width:32px;height:32px;object-fit:contain;display:block;"></span>
+          </div>
+          <h3 style="font-family:'Lato';font-weight:700;font-size:18px;margin:0 0 4px;">Superdesign</h3>
+          <span style="font-family:'Fira Code';font-size:12px;color:#5C9BE8;margin-bottom:12px;">superdesign.dev</span>
+          <p style="font-size:13.5px;line-height:1.5;color:#9BA3AD;margin:0;flex:1;">Clone and extract real UI from live websites.</p>
+          <span style="font-family:'Fira Code';font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:#6A7280;margin-top:16px;">Design</span>
+        </a>
+      </div>
+      <div data-empty style="display:none;text-align:center;padding:60px 20px;color:#7B8693;font-family:'Fira Code';font-size:14px;">No tools match your search.</div>
+    </section>
+
+    <footer style="border-top:1px solid rgba(255,255,255,.07);background:#0A0B0E;">
+      <div style="max-width:1180px;margin:0 auto;padding:36px 32px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;">
+        <a href="index.html" style="display:flex;align-items:center;gap:11px;"><img src="assets/img/logo-s3labs.png" alt="S3 Labs" style="height:131px;width:235px;display:block;"></a>
+        <p style="font-size:13px;color:#5C6470;font-family:'Fira Code';margin:0;">© 2026 S3 Labs · Made with ♥ by Tom &amp; Alex in Milwaukee, WI</p>
+      </div>
+    </footer>
+
+  </div>
+</div>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
