@@ -31,6 +31,8 @@ input::placeholder{color:#5C6470;}
 .hv12:hover{transform:translateY(-1px) !important;box-shadow:0 10px 28px rgba(64,126,201,.38) !important}
 .hv13:hover{transform:translateY(-4px) !important;border-color:rgba(92,155,232,.4) !important;background:rgba(92,155,232,.05) !important}
 .hv14:hover{border-color:rgba(92,155,232,.4) !important}
+.hv15{opacity:.85;transition:opacity .2s ease,transform .2s ease}
+.hv15:hover{opacity:1 !important;transform:translateY(-2px) !important}
 
 /* ---------- responsive ---------- */
 @media (max-width:960px){
